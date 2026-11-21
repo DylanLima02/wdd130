@@ -34,12 +34,12 @@ header {
     align-items: center;
     padding: 15px;
     background-color: var(--cor-primaria);
+    color: #fff;
 }
 
 header > img {
     width: 120px;
     height: auto;
-    color: white;
 }
 
 header nav {
