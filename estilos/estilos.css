@@ -1,12 +1,8 @@
-/* Configuração geral */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Cabeçalho, rodapé e conteúdo */
 
 header,
 footer,
@@ -15,7 +11,9 @@ footer,
     margin: 0 auto;
 }
 
-/* Navegação */
+header {
+    color: white;
+}
 
 nav {
     background-color: #333;
@@ -34,14 +32,14 @@ nav a {
     font-weight: 700;
 }
 
-/* Título principal */
-
 h1 {
     color: #333;
     border-bottom: 2px solid #333;
 }
 
-/* Organização com CSS Grid */
+h2 {
+    color: var(--cor-destaque1);
+}
 
 .grid {
     display: grid;
@@ -76,8 +74,6 @@ aside h2 {
     left: 0;
 }
 
-/* Imagem do perfil */
-
 main img {
     width: 150px;
     height: auto;
@@ -87,13 +83,9 @@ main img {
     float: right;
 }
 
-/* Parágrafos */
-
 p {
     padding: 0;
 }
-
-/* Rodapé */
 
 footer {
     margin-top: 15px;
@@ -101,8 +93,6 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-
-/* Seletores de Classe */
 
 .caixa {
     margin: 1rem;
