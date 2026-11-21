@@ -39,6 +39,7 @@ header {
 header > img {
     width: 120px;
     height: auto;
+    color: white;
 }
 
 header nav {
@@ -80,6 +81,7 @@ h2 {
 
 h2 {
     margin: 20px 0;
+    color: var(--cor-destaque1);
 }
 
 nav,
